@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Checkout</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a1058c237.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<header class="header">
+        <div class="wrap header-wrap">
+
+            <section class="logo"><a href="#" class="logo-link"><img src="img/group_2_18.png" alt="photo "></a>BRAN<p>D</p></section>
+
+            <section class="search">
+                <div class="search-box">
+                    <button>
+                        Browse<i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <form action="post" class="search-form">
+                    <input type="text" placeholder="Search for Item...">
+                    <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
+                </form>
+            </section>
+
+            <section class="account"><a href="#" class="buy-link"><img src="img/forma_1_1113.png" alt="photo"></a><button class="account-button">My Account <i class="fas fa-caret-down"></i></button></section>
+
+        </div>
+    </header>
+
+	<hr>
+
+	<div class="nav">
+		<div class="wrap nav-wrap">
+			<ul class="main-nav">
+				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Man</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Kids</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Accoseriese</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Featured</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Hot Deals</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="window">
+		<div class="wrap window-wrap">
+			<span class="name-window">NEW ARRIVALS</span>
+			<div class="links-window"><a href="#" class="linkName-window">HOME</a>/<a href="#" class="linkName-window">MEN</a>/<a href="#" class="linkName-window linkName-window-active">NEW ARRIVALS</a></div>
+		</div>
+	</div>
+
+	<section class="checkoutSection">
+        <div class="wrap checkoutSection-wrap">
+            <div class="checkoutAccordeonBlock">
+                <details class="checkoutAccordeon" open>
+                    <summary class="checkoutAccordeonTitle">01. Shipping Adress</summary>
+                    <div class="checkoutRegisterBlock">
+                        <div class="checkoutRegister">
+                            <form action="POST" class="checkoutRegisterForm">
+                                <div class="checkoutColumn">
+                                    <span class="checkoutFormTitle">Check as a guest or register</span>
+                                    <span class="checkoutFormComment">Register with us for future convenience</span>
+                                    <div class="checkoutRedioBlock">
+                                        <input type="radio" class="checkoutRadio" name="radioRegister" value="Guest" id="checkOutFormGuest" checked>
+                                        <label for="checkoutFormGuest" class="checkoutLabel">checkout as guest</label>
+                                    </div>
+                                    <div class="checkoutRedioBlock">
+                                        <input type="radio" class="checkoutRadio" name="radioRegister" value="Register" id="checkOutFormRegister">
+                                        <label for="checkoutFormRegister" class="checkoutLabel">Register</label>
+                                    </div>
+                                    <span class="checkoutFormTitle checkoutFormSaveTime">register and save time!</span>
+                                    <span class="checkoutFormComment">Register with us for future convenience</span>
+                                    <span class="checkoutFormLinks"><i class="fas fa-angle-double-right"></i>Fast and easy checkout</span>
+                                    <span class="checkoutFormLinks"><i class="fas fa-angle-double-right"></i>Easy access to your order history and status</span>
+                                    <button class="checkoutFormButtonContinue">Continue</button>
+                                </div>
+                                <div class="checkoutColumn">
+                                    <span class="checkoutFormTitle">Already registed?</span>
+                                    <span class="checkoutFormComment">Please log in below</span>
+                                    <span class="checkoutFormName">EMAIL ADDRESS <span class="checkoutRedStar">*</span></span>
+                                    <input type="text" class="checkoutFormEnter">
+                                    <span class="checkoutFormName">PASSWORD <span class="checkoutRedStar">*</span></span>
+                                    <input type="password" class="checkoutFormEnter">
+                                    <span class="checkoutFormRedText">* Required Fileds</span>
+                                    <div class="checkoutFormEndButtons">
+                                        <button class="checkoutFormButtonLog">Log in</button>
+                                        <a href="#" class="checkoutFormForgetPass">Forgot Password ?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+                <hr class="checkoutLine">
+                <details class="checkoutAccordeon">
+                    <summary class="checkoutAccordeonTitle">02.   BILLING INFORMATION</summary>
+                </details>
+                <hr class="checkoutLine">
+                <details class="checkoutAccordeon">
+                    <summary class="checkoutAccordeonTitle">03.   SHIPPING INFORMATION</summary>
+                </details>
+                <hr class="checkoutLine">
+                <details class="checkoutAccordeon">
+                    <summary class="checkoutAccordeonTitle">04.   SHIPPING METHOD</summary>
+                </details>
+                <hr class="checkoutLine">
+                <details class="checkoutAccordeon">
+                    <summary class="checkoutAccordeonTitle">05.   PAYMENT METHOD</summary>
+                </details>
+                <hr class="checkoutLine">
+                <details class="checkoutAccordeon">
+                    <summary class="checkoutAccordeonTitle">06.   ORDER REVIEW</summary>
+                </details>
+                <hr class="checkoutLine">
+            </div>
+
+        </div>
+    </section>
+
+	
+
+
+
+	<section class="feedback">
+        <div class="wrap feedback-wrap">
+            <section class="feedback-left">
+                <img src="img/avatarka.png" alt="photo">
+                <div class="feedback-left-desc">
+                    <article class="feedback-article">
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                    </article>
+                    <span class="feedback-left-span-f">Bin Burhan</span><br>
+                    <span class="feedback-left-span-s">Dhaka, Bd</span>
+                    <div class="three-sliders">
+                        <div class="sliders-box"></div>
+                        <div class="sliders-box pink-box"></div>
+                        <div class="sliders-box"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="feedback-right">
+                <h1>Subscribe</h1>
+                <h2>FOR OUR NEWLETTER AND PROMOTION</h2>
+                <div class="feedback-inputs">
+                    <input type="mail" placeholder="Enter Your Email">
+                    <button value="Subscribe">Subscribe</button>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="pre-footer">
+        <div class="wrap pre-footer-wrap">
+            <section class="left-desc">
+                <div class="logo">
+                    <img src="img/group_2_18.png" alt="photo">
+                    <span class="brand-word">BRAN<span class="D-letter">D</span></span>
+                </div>
+                <article class="pre-footer-article">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</article>
+                <article class="pre-footer-article">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</article>
+            </section>
+            <div class="list-links">
+                <span class="main-phrase">COMPANY</span>
+                <span class="other-phrases">Home</span>
+                <span class="other-phrases">Shop</span>
+                <span class="other-phrases">About</span>
+                <span class="other-phrases">How it Works</span>
+                <span class="other-phrases">Contacts</span>
+            </div>
+            <div class="list-links">
+                <span class="main-phrase">INFORMATION</span>
+                <span class="other-phrases">Tearms&nbsp;&&nbsp;Condition</span>
+                <span class="other-phrases">Privacy Policy</span>
+                <span class="other-phrases">How to Buy</span>
+                <span class="other-phrases">How to Sell</span>
+                <span class="other-phrases">Promotion</span>
+            </div>
+            <div class="list-links">
+                <span class="main-phrase">SHOP&nbsp;CATEGORY</span>
+                <span class="other-phrases">Men</span>
+                <span class="other-phrases">Women</span>
+                <span class="other-phrases">Child</span>
+                <span class="other-phrases">Apparel</span>
+                <span class="other-phrases">Brows All</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="wrap footer-wrap">
+            <span class="copyright">&copy;2017 Brand All Rights Reserved.</span>
+            <div class="social-medias">
+                <a href="#" class="social-box"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-box"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-box"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-box"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" class="social-box"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

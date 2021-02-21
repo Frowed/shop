@@ -1066,4 +1066,412 @@ body {
   letter-spacing: 0.025em;
   color: #fbfbfb;
 }
+
+.checkoutSection {
+  margin-top: 89px;
+}
+
+.checkoutAccordeon {
+  margin: 30px 0;
+}
+
+.checkoutAccordeon summary {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  cursor: pointer;
+}
+
+.checkoutAccordeonTitle::-webkit-details-marker {
+  display: none;
+}
+
+.checkoutRegisterForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkoutRegisterForm .checkoutColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormTitle {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 40px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormComment {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutRedioBlock {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 10px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormLinks {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+  margin-bottom: 5px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormButtonContinue {
+  width: 180px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormName {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormEnter {
+  width: 390px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormRedText {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ff0d0d;
+  margin-bottom: 32px;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormEndButtons .checkoutFormButtonLog {
+  width: 180px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.checkoutRegisterForm .checkoutColumn .checkoutFormEndButtons .checkoutFormForgetPass {
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222222;
+  text-decoration: none;
+}
+
+.checkoutRedStar {
+  color: red;
+}
+
+.checkoutLine {
+  background-color: #e8e8e8;
+}
+
+.titleOfCategory::-webkit-details-marker {
+  display: none;
+}
+
+.titleOfCategory + ul {
+  list-style-type: none;
+}
+
+.mainProduct {
+  margin-top: 60px;
+}
+
+.mainProduct .mainProduct-wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productOptions {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productOptions .productFirstOptions h2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productOptions .productFirstOptions span {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6f6e6e;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productOptions .productSecondOptions h2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productOptions .productSecondOptions span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productOptions .productThirdOptions h2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productGreyLine {
+  height: 50px;
+  background-color: #f3f3f3;
+  margin-bottom: 48px;
+  margin-top: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productGreyLine button {
+  width: 153px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6f6e6e;
+  margin-right: 10px;
+}
+
+.mainProduct .mainProduct-wrap .productMainPart .productCards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-column-end: 4;
+}
+
+.mainShopping {
+  margin-top: 90px;
+}
+
+.mainShopping .topNames {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.mainShopping .shoppingGoodCard {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formShopping {
+  margin-top: 50px;
+}
+
+.formShopping .formShopping-wrap .buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.formShopping .formShopping-wrap .formBase {
+  margin-top: 65px;
+  margin-bottom: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.formShopping .formShopping-wrap .formBase .oneForm {
+  display: -ms-grid;
+  display: grid;
+}
+
+.formShopping .formShopping-wrap .formBase .oneForm .title {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.formShopping .formShopping-wrap .formBase .oneForm input {
+  width: 355px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.formShopping .formShopping-wrap .formBase .oneForm button {
+  width: 100px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.formShopping .formShopping-wrap .formBase .twoForm {
+  display: -ms-grid;
+  display: grid;
+}
+
+.formShopping .formShopping-wrap .formBase .twoForm .title {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.formShopping .formShopping-wrap .formBase .twoForm .comment {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #000000;
+}
+
+.formShopping .formShopping-wrap .formBase .twoForm input {
+  width: 355px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+
+.formShopping .formShopping-wrap .formBase .twoForm button {
+  width: 118px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.formShopping .formShopping-wrap .formBase .threeForm {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: end;
+  width: 360px;
+  height: 214px;
+  background-color: #f5f3f3;
+  padding: 20px 50px;
+}
+
+.formShopping .formShopping-wrap .formBase .threeForm .total {
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.formShopping .formShopping-wrap .formBase .threeForm .totalRed {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.formShopping .formShopping-wrap .formBase .threeForm .totalRed .redPrice {
+  color: #f16d7f;
+}
+
+.formShopping .formShopping-wrap .formBase .threeForm button {
+  width: 273px;
+  height: 50px;
+  background-color: #f16d7f;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+}
+
+.formShopping .formShopping-wrap .formBase .threeForm hr {
+  height: 1px;
+}
 /*# sourceMappingURL=style.css.map */
